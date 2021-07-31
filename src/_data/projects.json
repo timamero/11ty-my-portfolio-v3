@@ -11,6 +11,16 @@
         "isFeatured": true
     },
     {
+        "title": "This Portfolio Website",
+        "img": "./src/images/project/portfolio.jpg",
+        "alt": "Screenshot of this portfolio website",
+        "description": "I developed and designed this portfolio with 11ty",
+        "languages": ["JavaScript", "HTML", "CSS"],
+        "frameworks": ["11ty"],
+        "github": "https://github.com/timamero/11ty-my-portfolio-v3",
+        "isFeatured": false
+    },
+    {
         "title": "Web App Landing Page",
         "img": "./src/images/project/aim.jpg",
         "alt": "Screenshot of wep app landing page site",

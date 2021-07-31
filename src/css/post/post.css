@@ -603,6 +603,10 @@ a:hover, a:active {
     justify-content: flex-start;
 }
 
+.projects .project-wrapper .list-container {
+    max-width: 400px;
+}
+
 /*************************************/
 /* footer.njk */
 /*************************************/
