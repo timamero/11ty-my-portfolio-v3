@@ -1,0 +1,67 @@
+[
+    {
+        "title": "Energy Comparison App",
+        "img": "./src/images/project/energy.jpg",
+        "alt": "Screenshot of energy comparison site",
+        "description": "User compares their annual energy consumption or expenditure",
+        "languages": ["JavaScript", "Python", "HTML", "CSS"],
+        "frameworks": ["Django", "React", "Material-UI"],
+        "github": "https://github.com/timamero/django-react-energy-comparison",
+        "demo": "https://fc-energy-comparison.netlify.app/",
+        "isFeatured": true
+    },
+    {
+        "title": "Web App Landing Page",
+        "img": "./src/images/project/aim.jpg",
+        "alt": "Screenshot of wep app landing page site",
+        "description": "Landing page for mock application",
+        "languages": ["JavaScript", "HTML", "CSS"],
+        "frameworks": ["React"],
+        "github": "https://github.com/timamero/react-aim-landing-page",
+        "demo": "https://fc-aim-landing-page.netlify.app/",
+        "isFeatured": true
+    },
+    {
+        "title": "Task Management App",
+        "img": "./src/images/project/taskcomplete.jpg",
+        "alt": "Screenshot of task management application site",
+        "description": "Manage tasks for different projects",
+        "languages": ["Python", "HTML", "CSS"],
+        "frameworks": ["Django", "Bulma"],
+        "github": "https://github.com/timamero/django-task-complete",
+        "demo" : "https://fc-taskcomplete.herokuapp.com/",
+        "isFeatured": true
+    },
+    {
+        "title": "Calculator + Number Fact Generator",
+        "img": "./src/images/project/reactcalculator.jpg",
+        "alt": "Screenshot of calculator/number generator site",
+        "description": "A calculator that displays number facts",
+        "languages": ["JavaScript", "HTML", "CSS"],
+        "frameworks": ["React"],
+        "github": "https://github.com/timamero/react-calculator",
+        "demo" : "http://react-calculator.fbcamero.com/",
+        "isFeatured": false
+    },
+    {
+        "title": "Recipe Scraper App",
+        "img": "./src/images/project/recipe.jpg",
+        "alt": "Screenshot of recipe scraper application site",
+        "description": "Input recipe url to display ingredients and instructions",
+        "languages": ["Python", "HTML", "CSS"],
+        "frameworks": ["Django"],
+        "github": "https://github.com/timamero/django-recipe-please",
+        "demo" : "https://recipeplease.herokuapp.com/",
+        "isFeatured": true
+    },
+    {
+        "title": "Bulls and Cows Game",
+        "img": "./src/images/project/bullsandcows.jpg",
+        "alt": "Screenshot of bulls and cows game site",
+        "description": "Code-breaking guessing game",
+        "languages": ["JavaScript", "HTML", "CSS"],
+        "github": "https://github.com/timamero/javascript-bulls-and-cows",
+        "demo" : "https://js-bulls-and-cows.netlify.app/",
+        "isFeatured": false
+    }
+]

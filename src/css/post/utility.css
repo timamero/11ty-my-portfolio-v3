@@ -1,0 +1,70 @@
+.page-content {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    width: 100%;
+    padding: 32px;
+
+    /*debug*/
+    /* background-color: red; */
+}
+
+.divider {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.5px solid var(--gray)
+}
+
+.full-screen-height {
+    height: 100vh;
+    min-height: 520px;
+}
+
+.max-content-height {
+    height: max-content;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+}
+
+.section-heading {
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1000px) {
+    .section-heading {
+        text-align: center;
+    }
+}
+
+.sub-section-heading {
+    font-weight: 200;
+    font-size: 1.7rem;
+}
+
+.list-heading {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 200;
+}
+
+.tagline {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.tagline-italic {
+    font-style: italic;
+}
+
+.main-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    /* line-height: 2rem; */
+}

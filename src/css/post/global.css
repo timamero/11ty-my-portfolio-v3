@@ -1,0 +1,56 @@
+/*
+Fonts
+font-family: 'Barlow', sans-serif;
+weights - 100, 200, 300, 400, 700, 800; italic all
+
+font-family: 'Barlow Condensed', sans-serif;
+weights - 100, 200, 300, 400 italic all
+
+font-family: 'Ubuntu', sans-serif;
+weights - 300, 400, 500, 700; italic all
+
+font-family: 'Ubuntu Mono', monospace;
+weights - 400, 700
+*/
+
+:root {
+    --typ-transition: all 0.25s linear;
+}
+
+html {
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body {
+    background-color: var(--light);
+    font-family: 'Barlow', sans-serif;
+    color: var(--dark);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    /* text-decoration: none; */
+    text-decoration-color: var(--yellow);
+    color: var(--dark);
+    transition: var(--typ-transition);
+}
+
+a:hover, a:active {
+    color: var(--dark-gray);
+    text-decoration-color: var(--dark-gray);
+}

@@ -1,0 +1,70 @@
+{% for item in projects %}
+    <div class="project-wrapper">
+        <h3 class="sub-section-heading">{{item.title}}</h3>
+        <p class="tagline">{{item.description}}</p>
+        <div class="img-btn-wrapper">
+            {% image item.img, item.alt, "project-screenshot", "300" %}
+            {# <img class="project-screenshot" src="{{item.img}}" alt="{{item.alt}}"> #}
+            <div class="btn-container">
+                {% if item.github %}
+                    <a href="{{item.github}}" class="small-link-wrapper" target="_blank" rel="noopener">
+                        <div class="cap left-cap"></div>
+                        <p>Github</p>
+                        <svg class="link-arrow" viewBox="0 0 208.39 77.147">
+                            <polygon transform="translate(0,-65.62)" points="167.84 84.86 0 84.86 0 123.53 167.84 123.53 159.21 132.16 169.81 142.77 208.39 104.19 169.81 65.62 159.21 76.226"/>
+                        </svg>
+                        <div class="cap right-cap"></div>
+                    </a>
+                {% endif %}
+                {% if item.demo %}
+                    <a href="{{item.demo}}" class="small-link-wrapper" target="_blank" rel="noopener">
+                        <div class="cap left-cap"></div>
+                        <p>Website</p>
+                        <svg class="link-arrow" viewBox="0 0 208.39 77.147">
+                            <polygon transform="translate(0,-65.62)" points="167.84 84.86 0 84.86 0 123.53 167.84 123.53 159.21 132.16 169.81 142.77 208.39 104.19 169.81 65.62 159.21 76.226"/>
+                        </svg>
+                        <div class="cap right-cap"></div>
+                    </a>
+                {% endif %}
+            </div>
+
+        </div>
+        <div class="list-wrapper">
+            {# <h4 class="list-heading">Languages</h4> #}
+            <ul class="list-container">
+                {% for language in item.languages %}
+                    <li>{{language}}</li>
+                {% endfor %}
+                {% if item.frameworks %}
+                    {% for framework in item.frameworks %}
+                        <li>{{framework}}</li>
+                    {% endfor %}
+                {% endif %}
+            </ul>
+        </div>
+        
+        {# <div class="btn-container">
+            {% if item.github %}
+                <a href="{{item.github}}" class="small-link-wrapper" target="_blank" rel="noopener">
+                    <div class="cap left-cap"></div>
+                    <p>Github</p>
+                    <svg class="link-arrow" viewBox="0 0 208.39 77.147">
+                        <polygon transform="translate(0,-65.62)" points="167.84 84.86 0 84.86 0 123.53 167.84 123.53 159.21 132.16 169.81 142.77 208.39 104.19 169.81 65.62 159.21 76.226"/>
+                    </svg>
+                    <div class="cap right-cap"></div>
+                </a>
+            {% endif %}
+            {% if item.demo %}
+                <a href="{{item.demo}}" class="small-link-wrapper" target="_blank" rel="noopener">
+                    <div class="cap left-cap"></div>
+                    <p>Website</p>
+                    <svg class="link-arrow" viewBox="0 0 208.39 77.147">
+                        <polygon transform="translate(0,-65.62)" points="167.84 84.86 0 84.86 0 123.53 167.84 123.53 159.21 132.16 169.81 142.77 208.39 104.19 169.81 65.62 159.21 76.226"/>
+                    </svg>
+                    <div class="cap right-cap"></div>
+                </a>
+            {% endif %}
+        </div> #}
+    </div> 
+    
+{% endfor %}

@@ -1,0 +1,12 @@
+:root {
+    /* Colors */
+    --light: #F8F4EA;
+    --light-transparent: rgb(248, 244, 234, 0.95);
+    --gray: #BCBAB7;
+    --dark-gray: #54524F; 
+    --dark: #2E2D2B;
+    --yellow: #E8BA82;
+    --yellow-transparent: rgb(232, 186, 130, 0.5);
+    --blue-green: #8AC7C4;
+    --dark-blue-green: #295655;
+}
