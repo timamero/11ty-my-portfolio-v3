@@ -25,7 +25,7 @@
     "serve": "set ELEVENTY_ENV=dev & npx @11ty/eleventy --serve",
     "start": "concurrently \"npm run watch_postcss\" \"npm run postcss:process\" \"npm run serve\"",
     "build:precss": "npm run postcss:combine",
-    "build:css": "postcss src/css/post/post.css --o src/css/styles.css",
+    "build:css": "postcss src/css/processed/combined.css --o src/css/styles.css",
     "build:11ty": "set ELEVENTY_ENV=production & npx @11ty/eleventy",
     "build": "npm-run-all build:*",
     "debug": "set DEBUG=* & npx eleventy"
