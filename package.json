@@ -6,11 +6,11 @@
   "watch": {
     "postcss:combine": {
       "patterns": [
-        "src/css/post"
+        "src/css/mystyles"
       ],
       "extensions": "css",
       "ignore": [
-        "post.css",
+        "combined.css",
         "styles.css"
       ]
     }
@@ -19,9 +19,9 @@
     "clean": "npx del-cli dist",
     "prestart": "npm run clean",
     "prebuild": "npm run clean",
-    "postcss:combine": "concat -o ./src/css/post/post.css ./src/css/post/colors.css ./src/css/post/global.css ./src/css/post/utility.css ./src/css/post/components.css",
+    "postcss:combine": "concat -o ./src/css/processed/combined.css ./src/css/mystyles/colors.css ./src/css/mystyles/global.css ./src/css/mystyles/utility.css ./src/css/mystyles/components.css",
     "watch_postcss": "npm-watch postcss:combine",
-    "postcss:process": "npx postcss src/css/post/post.css --o src/css/styles.css --watch",
+    "postcss:process": "npx postcss src/css/processed/combined.css --o src/css/styles.css --watch",
     "serve": "set ELEVENTY_ENV=dev & npx @11ty/eleventy --serve",
     "start": "concurrently \"npm run watch_postcss\" \"npm run postcss:process\" \"npm run serve\"",
     "build:precss": "npm run postcss:combine",

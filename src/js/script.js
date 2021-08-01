@@ -73,10 +73,9 @@ if (allProjectsSection) {
 
   
 // Send form data to getform
-if (form) {
-    
-    form.action="https://getform.io/f/53a1ccd0-bc9f-42e6-b3ae-aefbba77d6bb"
-}
+// if (form) { 
+//     form.action="https://getform.io/f/53a1ccd0-bc9f-42e6-b3ae-aefbba77d6bb"
+// }
 
 // Clear submission form
 const nameField = document.getElementById('name');
