@@ -9,7 +9,7 @@ async function imageShortcode(src, alt, clc, width) {
     }
   
     let metadata = await Image(src, {
-      widths: [60, 1000],
+      widths: [600],
       formats: ["jpeg"],
       outputDir: "./dist/img/",
       sharpJpegOptions: {quality: 100}
