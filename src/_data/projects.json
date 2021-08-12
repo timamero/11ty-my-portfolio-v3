@@ -1,5 +1,16 @@
 [
     {
+        "title": "Mock Business Website",
+        "img": "./src/images/project/sushi.jpg",
+        "alt": "Screenshot of mock sushi restaurant site",
+        "description": "Website for a sushi restaurant",
+        "languages": ["JavaScript", "HTML", "CSS"],
+        "frameworks": ["NextJS", "React"],
+        "github": "https://github.com/timamero/nextjs-sushi-website",
+        "demo": "https://fc-nextjs-sushi.netlify.app/",
+        "isFeatured": true
+    },
+    {
         "title": "Energy Comparison App",
         "img": "./src/images/project/energy.jpg",
         "alt": "Screenshot of energy comparison site",
