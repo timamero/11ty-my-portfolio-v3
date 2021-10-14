@@ -1,13 +1,12 @@
 [
     {
-        "title": "Mock Business Website",
-        "img": "./src/images/project/sushi.jpg",
-        "alt": "Screenshot of mock sushi restaurant site",
-        "description": "Website for a sushi restaurant",
+        "title": "Newsletter Web Application",
+        "img": "./src/images/project/newsletter.jpg",
+        "alt": "Screenshot of newsletter application",
+        "description": "Newsletter website and subscription application",
         "languages": ["JavaScript", "HTML", "CSS"],
-        "frameworks": ["NextJS", "React"],
-        "github": "https://github.com/timamero/nextjs-sushi-website",
-        "demo": "https://fc-nextjs-sushi.netlify.app/",
+        "frameworks": ["NodeJS/Express", "React"],
+        "github": "https://github.com/timamero/react-nodejs-newsletter",
         "isFeatured": true
     },
     {
@@ -40,7 +39,7 @@
         "frameworks": ["React"],
         "github": "https://github.com/timamero/react-aim-landing-page",
         "demo": "https://fc-aim-landing-page.netlify.app/",
-        "isFeatured": true
+        "isFeatured": false
     },
     {
         "title": "Task Management App",
