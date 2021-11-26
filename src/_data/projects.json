@@ -5,7 +5,7 @@
         "alt": "Screenshot of newsletter application",
         "description": "Newsletter website and subscription application",
         "languages": ["JavaScript", "HTML", "CSS"],
-        "frameworks": ["NodeJS/Express", "React"],
+        "frameworks": ["Node.js/Express", "React"],
         "github": "https://github.com/timamero/react-nodejs-newsletter",
         "isFeatured": true
     },
@@ -34,7 +34,7 @@
         "title": "Web App Landing Page",
         "img": "./src/images/project/aim.jpg",
         "alt": "Screenshot of wep app landing page site",
-        "description": "Landing page for mock application",
+        "description": "Responsive landing page for mock application",
         "languages": ["JavaScript", "HTML", "CSS"],
         "frameworks": ["React"],
         "github": "https://github.com/timamero/react-aim-landing-page",
@@ -51,6 +51,17 @@
         "github": "https://github.com/timamero/django-task-complete",
         "demo" : "https://fc-taskcomplete.herokuapp.com/",
         "isFeatured": true
+    },
+    {
+        "title": "Restaurant Landing Page",
+        "img": "./src/images/project/sushi.jpg",
+        "alt": "Screenshot of restaurant landing page",
+        "description": "Responsive landing page for mock sushi restaurant",
+        "languages": ["Javascript", "HTML", "CSS"],
+        "frameworks": ["Next.js"],
+        "github": "https://github.com/timamero/nextjs-sushi-website",
+        "demo" : "https://fc-nextjs-sushi.netlify.app/",
+        "isFeatured": false
     },
     {
         "title": "Calculator + Number Fact Generator",
