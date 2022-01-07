@@ -87,13 +87,13 @@
         "isFeatured": true
     },
     {
-        "title": "Bulls and Cows Game",
-        "img": "./src/images/project/bullsandcows.jpg",
+        "title": "Bulls and Cows Game V2",
+        "img": "./src/images/project/bullsandcowsV2.jpg",
         "alt": "Screenshot of bulls and cows game site",
         "description": "Code-breaking guessing game",
         "languages": ["JavaScript", "HTML", "CSS"],
-        "github": "https://github.com/timamero/javascript-bulls-and-cows",
-        "demo" : "https://js-bulls-and-cows.netlify.app/",
+        "github": "https://github.com/timamero/javascript-bulls-and-cows-v2",
+        "demo" : "https://bulls-and-cows-v2.netlify.app/",
         "isFeatured": false
     }
 ]
